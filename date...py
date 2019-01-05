@@ -1,5 +1,5 @@
 date_format=input("Enter the date format dd/mm/yy or mm/dd/yy")
-if date_format ==dd/mm/yy:
+if date_format =='dd/mm/yy':
     for char in range(11):
         date=input("Enter the date: ")
         dd,mm,yy=date.split('/')
