@@ -1,6 +1,6 @@
 date_format=input("Enter the date format dd/mm/yy or mm/dd/yy")
 if date_format =='dd/mm/yy':
-    for char in range(11):
+    for char in range(10):
         date=input("Enter the date: ")
         dd,mm,yy=date.split('/')
         dd=int(dd)
@@ -21,7 +21,7 @@ if date_format =='dd/mm/yy':
         else:
             print('Date is valid.')
 else:
-    for char in range(11):
+    for char in range(10):
         date=input("Enter the date: ")
         mm,dd,yy=date.split('/')
         dd=int(dd)
